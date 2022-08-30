@@ -1,0 +1,163 @@
+.inbox_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    .inbox_inner_item{
+        background: var(--ion-color-primary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+        .inbox_icon{
+            color: white !important;
+            font-size: 23px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .last_scene{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &::after{
+            content: "";
+            background: var(--ion-color-primary);
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: 3px;
+            right: 74px;
+            border-radius: 50%;
+            box-shadow: white 0px 0px 0px 4px;
+        }
+        h4{
+            margin: 3px;
+            font-weight: 700;
+        }
+        p{
+            margin: 0;
+            color: #00000094;
+            font-size: 16px;
+        }
+    }
+    .features_acess{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ion-icon{
+            color: white;
+            font-size: 26px;
+            margin-right: 20px;
+        }
+    }
+}
+.msg_wrapper{
+    .recieved_msg{
+        background: var(--ion-color-primary);
+        color: white;
+        width:  fit-content;
+        max-width: 276px;
+        border-radius: 15px 15px 15px 0;
+        margin: 15px auto 0 10px;
+        padding: 10px 17px;
+        p{
+            margin: 0;
+            width: auto;
+        }
+    }
+    .sent_msg{
+        background: black;
+        color: white;
+        width:  fit-content;
+        max-width: 276px;
+        border-radius: 15px 15px 0 15px;
+        margin: 15px 10px 0 auto;
+        padding: 10px 17px;
+    p{
+        margin: 0;
+        width: auto;
+    }
+    }
+}
+.msg_keybord{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    .write_msg{
+        box-shadow: lightgray 0px 2px 8px 0px;
+        border-radius: 10px;
+        margin: 10px;
+        .extra_access_features{
+            background: var(--ion-color-primary);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .add_icon{
+                font-size: 23px;
+                color: white;
+            }
+        }
+        }
+    }
+.mr_10{
+    margin-right: 10px;
+}
+.mt_15{
+    margin-top: 15px;
+}
+.mt_22{
+    margin-top: 22px;
+}
+.p_none{
+    padding: 0 !important;
+}
+/** ion-popover**/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 13px;
+    align-items: center;
+    .col_4{
+        width: 33%;
+        margin-bottom: 15px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        ion-label{
+            font-size: 13px;
+            margin-top: 5px;
+        }
+    }
+}
+.extra_add_features{
+        background: var(--ion-color-primary);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+/** emoji keybord**/
+aside.emoji-picker-react {
+    width: 100% !important;
+}
+.emoji-picker-react ul.skin-tones-list{
+    display: none !important;
+}

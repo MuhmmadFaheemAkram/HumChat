@@ -1,0 +1,75 @@
+.p_max{
+    padding: 100px 5px 0px 5px;
+}
+.wrapper{
+.bg_primary{
+    background:var(--ion-color-primary);
+}
+.m_auto{
+    margin: auto;
+}
+h5{
+    font-weight: 600;
+}
+.text_center{
+    text-align: center;
+}
+.forgot_text{
+    display: flex;
+    justify-content: end;
+}
+.text_capitalize{
+    text-transform: capitalize;
+}
+.box_shadow{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.br_10{
+    border-radius: 10px;
+}
+.wh_100{
+    width: 100%;
+    height: 45px;
+}
+.p_10{
+    padding: 5px !important;
+}
+.mb_20{
+    margin:0 0 20px 0!important;
+}
+.mrl_15{
+    margin: 0 15px;
+}
+.app_logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .app_icon{
+        color:var( --ion-text-color-white);
+        font-size: 29px;
+    }
+}
+.margin_none{
+    margin: 0;
+}
+.button_text{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--ion-text-color-white);
+    justify-content: center;
+}
+.google_login{
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--ion-text-color-primary);
+        justify-content: center;
+        border: 2px var(--ion-color-primary) solid;
+    }
+    .google_img{
+        width: 24px;
+    margin-right: 10px;
+    }
+}

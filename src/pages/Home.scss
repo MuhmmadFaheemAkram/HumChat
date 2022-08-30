@@ -1,0 +1,107 @@
+.top_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 17px 15px;
+    .header_logo{
+        background: var(--ion-color-primary);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .app_icon{
+            color: var(--ion-text-color-white);
+            font-size: 21px;
+        }
+    }
+    .notification_icon{
+        font-size: 22px;
+        &::after{
+            content: "";
+            background: var(--ion-color-primary);
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: 0;
+            border-radius: 50%;
+        }
+    }
+    ion-title{
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+.sc-ion-searchbar-md-h {
+    --background: white;
+    --border-radius: 10px;
+    --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    --cancel-button-color: var(--ion-color-step-900, #1a1a1a);
+    --clear-button-color: initial;
+    --color: var(--ion-color-step-850, #262626);
+    --icon-color: var(--ion-color-step-600, #666666);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: inherit;
+}
+ion-slide{
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50% !important;
+    margin-right: 13px;
+    box-shadow: var(--ion-color-primary) 0px 0px 0px 3px;
+}
+.m_10{
+    margin: 10px;
+}
+.p_10{
+    padding: 10px;
+}
+.friend_img{
+    width: 65px !important;
+    height: 65px !important;
+    position: relative;
+    &::after{
+        content: "";
+        background: var(--ion-color-primary);
+        width: 17px;
+        height: 17px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 50%;
+        box-shadow: white 0px 0px 0px 4px;
+    }
+}
+.friend_front_detail{
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    .friend_text{
+        display: flex;
+        flex-flow: column;
+        margin-left: 10px;
+        h4{
+            margin: 0;
+            font-size: 17px;
+            font-weight: 700;
+        }
+        p{
+            margin: 6px 0 0 0;
+            font-size: 16px;
+        }
+    }
+    .msg_time_badge{
+        display: flex;
+        flex-flow: column;
+        ion-badge{
+            margin-top: 5px;
+            font-size: 15px;
+            font-weight: 800;
+        }
+    }
+}
